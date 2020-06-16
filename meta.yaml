@@ -36,45 +36,51 @@ requirements:
     - pip
     - nodejs
     - yarn
+    - argh>=0.24.1
     - boto3>=1.5
     - cachetools>=3.0.0
     - colorama
-    - colorlog >=2.7.0
-    - crontab >=0.21
+    - colorlog>=2.7.0
+    - crontab>=0.21
     - cssselect
-    - diskcache >=2.8.3
+    - diskcache>=2.8.3
     - h5py
     - inflect
     - ipdb
     - jmespath
     - joblib
-    - ldap3 >=2.2.4
+    - ldap3>=2.2.4
     - lxml
     - markdown
     - matplotlib
-    - oauthlib >=1.1.2
+    - oauthlib>=1.1.2
     - pandas
-    - passlib >=1.6.5
+    - passlib>=1.6.5
     - pathlib
-    - pathtools >=0.1.1
+    - pathtools>=0.1.1
     - psutil
     - pymysql
     - pytest
-    - python-pptx >=0.6.6
-    - pyyaml >=5.1
-    - redis >=2.10.0
+    - python-pptx>=0.6.6
+    - pyyaml>=5.1
+    - redis>=2.10.0
     - requests
     - seaborn
     - selenium
-    - setuptools >=16.0
-    - shutilwhich >=1.1.0
+    - setuptools>=16.0
+    - shutilwhich>=1.1.0
     - six
     - sqlalchemy
-    - sqlitedict >=1.5.0
+    - sqlitedict>=1.5.0
     - textblob
     - tornado ==5.1.1
-    - watchdog >=0.8
+    - watchdog>=0.8
     - xlrd
+test:
+  imports:
+    - gramex
+  commands:
+    - gramex
 
 about:
   home: http://learn.gramener.com/guide/
