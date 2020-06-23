@@ -10,7 +10,7 @@ source:
   sha256: 920a7b0c5cd031ee6632392bd37cabfe59bf2fd24958d65e3f453a97ad986e5c
 
 build:
-  number: 0
+  number: 3
   entry_points:
     - gramex = gramex:commandline
 
@@ -34,13 +34,13 @@ requirements:
   run:
     - python
     - pip
-    - nodejs
-    - yarn
+    - nodejs>=7.6
     - argh>=0.24.1
     - boto3>=1.5
     - cachetools>=3.0.0
     - colorama
     - colorlog>=2.7.0
+    - conda
     - crontab>=0.21
     - cssselect
     - diskcache>=2.8.3
@@ -65,7 +65,9 @@ requirements:
     - pyyaml>=5.1
     - redis>=2.10.0
     - requests
+    - rpy2
     - seaborn
+    - scikit-learn
     - selenium
     - setuptools>=16.0
     - shutilwhich>=1.1.0
@@ -76,11 +78,13 @@ requirements:
     - tornado ==5.1.1
     - watchdog>=0.8
     - xlrd
+    - yarn
 test:
   imports:
     - gramex
   commands:
     - gramex
+    - gramex setup --all
 
 about:
   home: http://learn.gramener.com/guide/
