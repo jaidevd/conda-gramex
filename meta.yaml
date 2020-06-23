@@ -86,7 +86,6 @@ test:
     - gramex
   commands:
     - gramex
-    - gramex setup --all
 
 about:
   home: http://learn.gramener.com/guide/
