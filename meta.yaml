@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 920a7b0c5cd031ee6632392bd37cabfe59bf2fd24958d65e3f453a97ad986e5c
+  patches:
+    - nlg_setup.patch
 
 build:
   number: 3
