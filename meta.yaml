@@ -12,7 +12,7 @@ source:
     - nlg-setup.patch
 
 build:
-  number: 3
+  number: 4
   entry_points:
     - gramex = gramex:commandline
 
