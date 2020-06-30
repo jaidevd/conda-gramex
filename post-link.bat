@@ -1,4 +1,4 @@
-%PREFIX%\Scripts\pip.exe install orderedattrdict>=1.4.3 xmljson>=0.1.5 cron-descriptor tables
+%PREFIX%\Scripts\pip.exe install -r requirements.txt
 call %PREFIX%\Library\bin\yarn.cmd config set ignore-engines true
 %PREFIX%\Scripts\gramex.exe setup ui
 %PREFIX%\Scripts\gramex.exe setup admin
