@@ -29,10 +29,11 @@ requirements:
     - pytest
     - seaborn
     - sqlalchemy
-    - rpy2
     - tzlocal
     - scikit-learn
     - pyyaml>=5.1
+    - r-base
+    - r-essentials
   run:
     - python
     - pip
@@ -46,13 +47,14 @@ requirements:
     - pandas
     - pytest
     - requests
-    - rpy2
     - seaborn
     - scikit-learn
     - setuptools>=16.0
     - shutilwhich>=1.1.0
     - sqlalchemy
     - yarn
+    - r-base
+    - r-essentials
 test:
   imports:
     - gramex
