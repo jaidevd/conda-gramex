@@ -1,8 +1,0 @@
-diff --git a/gramex/apps/nlg/setup.bat b/gramex/apps/nlg/setup.bat
-new file mode 100644
-index 00000000..42bef834
---- /dev/null
-+++ b/gramex/apps/nlg/setup.bat
-@@ -0,0 +1,2 @@
-+pip install spacy
-+python -m spacy download en_core_web_sm

@@ -1,4 +1,4 @@
-$CONDA_PREFIX/bin/conda install -c default rpy2 - y
+$CONDA_PREFIX/bin/conda install -c default rpy2 -y
 
 $CONDA_PREFIX/bin/pip install orderedattrdict>=1.4.3 xmljson>=0.1.5 cron-descriptor tables
 $CONDA_PREFIX/bin/pip install argh>=0.24.1 boto3>=1.5 cachetools>=3.0.0 colorlog>=2.7.0

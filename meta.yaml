@@ -1,5 +1,5 @@
 {% set name = "gramex" %}
-{% set version = "1.60.0" %}
+{% set version = "1.61.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 920a7b0c5cd031ee6632392bd37cabfe59bf2fd24958d65e3f453a97ad986e5c
-  patches:
-    - nlg-setup.patch
+  sha256: 42325ac89863a6a90a3f6b95ce89fc6d0d6929a4f40bb52d3c4831bf63b54007
 
 build:
   number: 5
