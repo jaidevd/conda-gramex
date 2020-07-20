@@ -10,7 +10,7 @@ source:
   sha256: 42325ac89863a6a90a3f6b95ce89fc6d0d6929a4f40bb52d3c4831bf63b54007
 
 build:
-  number: 5
+  number: 1
   entry_points:
     - gramex = gramex:commandline
 
