@@ -1,3 +1,5 @@
+%PREFIX%\Scripts\conda.exe install -c default rpy2 - y
+
 %PREFIX%\Scripts\pip.exe install orderedattrdict>=1.4.3 xmljson>=0.1.5 cron-descriptor tables
 %PREFIX%\Scripts\pip.exe install argh>=0.24.1 boto3>=1.5 cachetools>=3.0.0 colorlog>=2.7.0
 %PREFIX%\Scripts\pip.exe install crontab>=0.21 cssselect diskcache>=2.8.3 inflect ipdb jmespath

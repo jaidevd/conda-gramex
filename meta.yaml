@@ -32,8 +32,6 @@ requirements:
     - tzlocal
     - scikit-learn
     - pyyaml>=5.1
-    - r-base
-    - r-essentials
   run:
     - python
     - pip
@@ -53,8 +51,6 @@ requirements:
     - shutilwhich>=1.1.0
     - sqlalchemy
     - yarn
-    - r-base
-    - r-essentials
 test:
   imports:
     - gramex
