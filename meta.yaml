@@ -51,6 +51,7 @@ requirements:
     - shutilwhich>=1.1.0
     - sqlalchemy
     - yarn
+    - tzlocal
 test:
   imports:
     - gramex
