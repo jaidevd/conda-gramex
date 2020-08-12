@@ -1,5 +1,5 @@
 {% set name = "gramex" %}
-{% set version = "1.61.1" %}
+{% set version = "1.62.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,12 +7,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 42325ac89863a6a90a3f6b95ce89fc6d0d6929a4f40bb52d3c4831bf63b54007
+  sha256: 494a9c152c096e6b4eec089c5fb223b67f330ef792449d3e089d7ecc430825cf
 
 build:
   number: 1
   entry_points:
     - gramex = gramex:commandline
+    - slidesense = gramex.pptgen2:commandline
 
 requirements:
   build:
