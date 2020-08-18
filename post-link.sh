@@ -1,5 +1,3 @@
-$CONDA_PREFIX/bin/conda install -c default rpy2 r-ggplot2 r-rmarkdown -y
-
 $CONDA_PREFIX/bin/pip install orderedattrdict>=1.4.3 xmljson>=0.1.5 cron-descriptor tables
 $CONDA_PREFIX/bin/pip install argh>=0.24.1 boto3>=1.5 cachetools>=3.0.0 colorlog>=2.7.0
 $CONDA_PREFIX/bin/pip install crontab>=0.21 cssselect diskcache>=2.8.3 inflect ipdb jmespath
@@ -10,3 +8,5 @@ $CONDA_PREFIX/bin/pip install tornado==5.1.1 watchdog>=0.8 xlrd
 
 $CONDA_PREFIX/bin/yarn config set ignore-engines true
 $CONDA_PREFIX/bin/gramex setup --all
+$CONDA_PREFIX/bin/conda install -c main scikit-learn tzlocal rpy2 -y
+$CONDA_PREFIX/bin/conda install -c r r-markdown r-ggplot2 -y
