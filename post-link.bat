@@ -4,10 +4,12 @@
 %PREFIX%\Scripts\pip.exe install ldap3>=2.2.4 markdown oauthlib>=1.1.2 passlib>=1.6.5 pathlib
 %PREFIX%\Scripts\pip.exe install pathtools>=0.1.1 psutil pymysql python-pptx>=0.6.6 pyyaml>=5.1
 %PREFIX%\Scripts\pip.exe install redis>=2.10.0 selenium six sqlitedict>=1.5.0 textblob
-%PREFIX%\Scripts\pip.exe install tornado ==5.1.1 watchdog>=0.8 xlrd rpy2
-
-%PREFIX%\Scripts\conda.exe install -c default r-rmarkdown r-ggplot2 -y
+%PREFIX%\Scripts\pip.exe install tornado ==5.1.1 watchdog>=0.8 xlrd
 
 call %PREFIX%\Library\bin\yarn.cmd config set ignore-engines true
 %PREFIX%\Scripts\gramex.exe setup --all
+
+%PREFIX%\Scripts\conda.exe install -c main scikit-learn tzlocal rpy2 -y
+%PREFIX%\Scripts\conda.exe install -c r r-rmarkdown r-ggplot2 -y
+
 if errorlevel 1 exit 1
