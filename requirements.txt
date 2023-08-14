@@ -27,6 +27,6 @@ selenium
 six
 sqlitedict>=1.5.0
 textblob
-tornado ==5.1.1
+tornado ==6.3.3
 watchdog>=0.8
 xlrd
